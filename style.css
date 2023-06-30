@@ -1,0 +1,59 @@
+.well{
+    color: red;
+    background-color: palegreen;
+}
+*{
+    text-align: center;
+    
+}
+.hello{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.3;
+}
+.dolor{
+    background-color:rebeccapurple;
+    font-size: 25px;
+    border: 3px solid green;
+    border-radius: 22px;
+}
+.love{
+    width: 25%;
+}
+.it{
+
+    background-color: powderblue;
+    box-shadow:5px 2px ;
+    cursor: pointer;
+}
+.lorem{
+    background-color: aqua;
+    height: 500px;
+    width: 400px;
+    line-height: 2;
+}
+.sit{
+    background-color: dimgray;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+}
+h5{
+    width: ;
+    display: inline;
+    padding: 10px;
+    
+}
+.wrapper{
+    width: 400px;
+    height: 400px;
+    background-color: goldenrod;
+    margin: 40px;
+    position: relative;
+}
+.inner{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    top: 20px;
+    right:20px;
+}
