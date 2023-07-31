@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: wheat;
+}
+
+header {
+    background: #000;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.continor {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 150px;
+    padding: 20px;
+}
+
+.link2 {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#carch {
+    color: white;
+    padding: 40px 40px 0 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link1 {
+    display: inline-block;
+    margin: 30px;
+}
+
+.link2:hover {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(3, 33, 33);
+    background-color: hotpink;
+}
+
+.section1 {
+    width: 100vw;
+    height: 692px;
+    border: 1px solid red;
+    background: url(./Image1.png);
+    background-size: cover;
+}
+
+.continor1 {
+    margin: 0px auto;
+    width: 95vw;
+    height: 692px;
+    position: relative;
+}
+
+.head1 {
+    color: wheat;
+    font-size: 5rem;
+    position: absolute;
+    top: 320px;
+}
+
+.lorem1 {
+    position: relative;
+}
+
+.paragraph1 {
+    color: wheat;
+    font-size: 25px;
+    position: absolute;
+    top: 420px;
+}
+
+.paragraph2 {
+    color: wheat;
+    font-size: 25px;
+    position: absolute;
+    top: 450px;
+}
+
+.paragraph3 {
+    color: wheat;
+    font-size: 25px;
+    position: absolute;
+    top: 480px;
+}
+
+.regidter {
+    position: relative;
+}
+
+.regidter1 {
+    border-radius: 5px;
+    border: solid 1px orangered;
+    padding: 10px;
+    color: wheat;
+    position: absolute;
+    top: 530px;
+    font-size: 25px;
+    background-color: orangered;
+    background-size: cover;
+
+}
+
+
+.section2 {
+    width: 100vw;
+    height: 800px;
+    background: orangered;
+    background-repeat: no-repeat;
+}
+
+.contino2 {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.fastfont {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tour {
+    color: wheat;
+    font-size: 40px;
+    text-align: center;
+    margin: 60px 0 40px 0;
+}
+
+.moto {
+    color: wheat;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lava {
+    color: wheat;
+    font-size: 20px;
+    text-align: center;
+}
+
+.photo {
+    margin: 90px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo1 {
+    width: 27.3vw;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.photo1 p,
+h3 {
+
+    margin: 2px;
+    height: 30px;
+}
+
+.photo2 {
+    width: 27.3vw;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.photo2 p,
+h3 {
+
+    margin: 2px;
+    height: 30px;
+}
+
+.photo3 {
+    width: 27.3vw;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.photo3 p,
+h3 {
+
+    margin: 2px;
+    height: 30px;
+}
+
+
+.section3 {
+    height: 700px;
+    width: 100vw;
+    background: #000;
+}
+
+.continor3 {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.head3 h3,
+.head3 p {
+    text-align: center;
+    font-size: 2em;
+}
+
+ .head3 h3 {
+    font-size: 40px;
+    padding: 50px 0 0 0;
+
+}
+
+#lorem3 {
+    padding: 50px 0 0 0;
+}
+
+.logobox {
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logobox1 {
+    text-align: center;
+    width: 300px;
+    height: 415px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.logo3a {
+    display: block;
+    margin: 30px auto;
+}
+
+.logobox1 p {
+    display: inline-block;
+    width: 200px;
+}
+.button3{
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    padding: 10px 60px;
+    margin: 50px 0;
+}
+
+
+
+
+
+
+.section4{
+    width: 100vw;
+    display: flex;
+}
+.mainphoto1{
+    flex:1;
+    background-color: orangered;
+    width: 50%;
+    
+}
+.mainphoto{
+    flex:1;
+}
+.mainphoto img{
+
+    width: 100%;
+}
+.lorem4{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    font-size: 25px;
+}
+.mainphoto2{
+
+    display: flex;
+    flex-direction: column;
+}
+.mainphoto2 h3{
+    margin: 30px 0 0 0;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.button4{
+    border-style: none;
+    margin-left: 70px;
+    padding: 10px 50px;
+    width: 200px;
+    display: inline;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+
+
+.section5{
+    width: 100vw;
+    height: 600px;
+    background: #010d12e4;
+}
+.cotinor5{
+    width: 40vw;
+    margin: 0 auto;
+}
+.cotinor5 h3{
+    font-size: 40px;
+    padding: 40px 0;
+}
+.cotinor5 p{
+    font-size: 25px;
+    padding: 50px 0;
+}
+.cotinor5a{
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.section6{
+    display: flex;
+    width: 100vw;
+    height: 600px;
+    background: linear-gradient(rgba(214, 110, 112, 0.6),rgba(197, 114, 121, 0.6)),url(./a22.png);
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.continor6 h3{
+    font-size: 45px;
+}
+.continor6 p{
+    margin: 40px 0;
+    display: inline-block;
+    font-size: 25px;
+    width: 500px
+}
+
+
+.section7{
+    width: 100%;
+    height: 400px;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.continor7 p{
+    width: 500px;   
+}
+.continor7 h3{
+    font-size: 40px;
+    padding: 20px 0;
+
+}
+.continor7 p{
+font-size: 25px;
+padding: 40px 0;
+}
+.continor7 input{
+    padding: 5px 70px;
+}
+.continor7 button{
+    padding: 5px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: #000;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.foot1 p{
+    width: 400px;
+}
+.foot2 li,.foot3 li,.foot4 li{
+    list-style: none;
+    padding: 5px;
+}
+.foot2 a,.foot3 a,.foot4 a{
+    text-decoration: none;
+    
+}
+.foot4{
+    margin-right: 5px;
+}
