@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.mbox{
+    display: grid;
+    border: solid 2px rebeccapurple;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.box{
+    border: solid 2px gold;
+    width: 100px;
+    height: 100px ;
+    background: #d8cece;
+    
+}
